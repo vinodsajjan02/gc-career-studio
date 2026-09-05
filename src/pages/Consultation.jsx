@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const API_URL = "http://localhost:8085/api/leads";
+const API_URL = "https://gc-career-studio-backend.onrender.com/api/leads";
 
 function Consultation() {
 
@@ -235,6 +235,7 @@ function Consultation() {
         .form-card h2 {
           margin-top: 0;
           font-size: 25px;
+          color: #5b5df0;
         }
 
         .form-card .subtitle {
@@ -277,6 +278,12 @@ function Consultation() {
           outline: none;
           transition: 0.2s;
           background: white;
+          color: #171d2c;
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+          color: #9aa1b0;
         }
 
         .form-group input:focus,
@@ -353,6 +360,7 @@ function Consultation() {
         .booking-card h2 {
           margin-top: 0;
           font-size: 25px;
+          color: #5b5df0;
         }
 
         .booking-card .subtitle {

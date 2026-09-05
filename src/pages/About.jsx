@@ -112,6 +112,7 @@ function About() {
           font-size: 52px;
           line-height: 1.12;
           margin: 15px 0 22px;
+          color: #5b5df0;
         }
 
         .about-content h1 strong {
@@ -154,6 +155,7 @@ function About() {
           font-size: 42px;
           max-width: 750px;
           margin: 15px auto;
+          color: #5b5df0;
         }
 
         .mission p {
@@ -185,6 +187,7 @@ function About() {
         .values-title h2 {
           font-size: 40px;
           margin: 12px 0;
+          color: #5b5df0;
         }
 
         .value-grid {
